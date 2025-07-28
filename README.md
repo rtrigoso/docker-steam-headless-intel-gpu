@@ -1,3 +1,5 @@
+This repo is a fork of [Steam-Headless](https://github.com/Steam-Headless/docker-steam-headless) that adds the required packages to use Intel ARC battleimage GPUs. The changes are tested on a Intel ARC B580 GPU.
+
 # Headless Steam Service
 
 ![](./images/banner.jpg)
