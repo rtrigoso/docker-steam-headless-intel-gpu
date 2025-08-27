@@ -106,6 +106,14 @@ RUN \
     && \
     echo
 
+
+# install mesa drivers ppa
+RUN \
+    add-apt-repository ppa:kisak/kisak-mesa \
+      && apt update -y \
+      && apt upgrade -y
+
+
 # Configure default user and set user env
 ENV \
     PUID=99 \
